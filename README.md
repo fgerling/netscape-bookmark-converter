@@ -1,7 +1,7 @@
 # Netscape Bookmark Converter
 
 A Python tool to convert bookmark export files in [Netscape bookmark
-format](https://msdn.microsoft.com/en-us/library/aa753582.aspx) into JSON.
+format](https://msdn.microsoft.com/en-us/library/aa753582.aspx) into BM_TXT.
 
 ## Requirements
 
@@ -19,7 +19,7 @@ See Python [documentation page](https://docs.python.org/3/library/venv.html).
 $ ./convert-bookmarks.py -h
 usage: convert-bookmarks.py [-h] [-t tag] [filename [filename ...]]
 
-Convert Netscape bookmarks to JSON
+Convert Netscape bookmarks to BM_TXT
 
 positional arguments:
   filename
